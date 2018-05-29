@@ -1,0 +1,12 @@
+{
+  "bets": [
+    {
+      "id": 0,
+      "matchID": 1,
+      "bet": {
+        "winner": "team_home"
+      }
+    }
+  ],
+  "currentID" : 1
+}

@@ -1,0 +1,333 @@
+/*Global Styling*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+html, body{
+  height: 100%;
+	width: 100%;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1em;
+	overflow: hidden;
+}
+
+*{
+	box-sizing: border-box;
+	color: black;
+}
+#root{
+	height: 100%;
+}
+/*endof Global Styling*/
+
+/*Desktop styling */
+.root-div{
+	display: block;
+	height: 100%;
+	background: grey;
+}
+.main-div{
+	display: inline-block;
+	width: 80%;/*80*/
+	height: 100%;
+	padding: 1%;
+	overflow: hidden;
+}
+.login-div{
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+}
+
+/*Login Styling*/
+#login-button{
+	width: 90%;
+	margin: 5%;
+  border: none;
+  background: white;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 3% 20%;
+}
+#user-info-ul{
+	height: 100%;
+	width: 100%;
+	padding: 5%;
+}
+.user-info-li{
+  list-style-type: none;
+  padding-bottom:10%;
+}
+.user-info-p{
+  font-size: 3em;
+}
+/*endof Login Styling*/
+
+.content-div{
+	display:block;
+	height: 94%;
+	margin-top: 1%;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+/*Menu Styling*/
+.menu-ul{
+	display: block;
+	height: 5%;
+	background: black;
+	color: white;
+}
+.menu-li, .menu-li-selected{
+	display: inline-block;
+	height:100%;
+	width: 25%;
+  list-style-type: none;
+  cursor: pointer;
+	padding: 1%;
+	text-align: center;
+	font-size: 1.5em;
+	color: white;
+}
+.menu-li-selected{
+  border-bottom: 3px solid white;
+}
+/*endof Menu Styling*/
+
+/*Navigation Stlying*/
+.back{
+	width: 100%;
+
+	border: none;
+	background: linear-gradient(to right, black, black 5%, white 30%);
+	color: white;
+	font: inherit;
+	text-align: left;
+	vertical-align: middle;
+}
+.back:focus{
+	outline: none;
+}
+/*eondof Navigation Stlying*/
+
+/*endof Desktop Styling*/
+
+/*Content Styling*/
+.card {
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		width: 800px;
+		margin-left: calc(50% - 400px);
+		margin-bottom: 1%;
+		padding: 2% 5%;
+		text-align: left;
+		background: white;
+}
+.title{
+	display: block;
+	vertical-align: middle;
+	width: 100%;
+	padding: 1%;
+	font-size: 2em;
+}
+.title-large{
+	font-size: 2.2em;
+	text-align: center;
+	border-top: 1px solid purple;
+	border-bottom: 1px solid purple;
+}
+.info{
+	display: inline-block;
+	padding: 1%;
+}
+.icon{
+	display: inline-block;
+}
+
+/*endof Content Styling*/
+
+/*Table Styling*/
+.tb{
+	width: 100%;
+	border-collapse: collapse;
+}
+.tb *{
+		vertical-align: middle;
+}
+.tb tr{
+	border-bottom: 1px solid white;
+	width: 100%;
+}
+.tb tr:hover{
+	border-bottom: 1px solid orange;
+	cursor: pointer;
+}
+.tb td{
+	padding: 3px;
+}
+.tb-h{
+	border-bottom: 1px solid black;
+}
+.tb-l{
+	text-align: left;
+}
+.tb-c{
+	text-align: center;
+}
+.tb-r{
+	text-align: right;
+}
+.tb-small{
+	width:10%;
+}
+.tb-med{
+	width:33%;
+}
+.tb-large{
+	font-weight: 500;
+	font-size: 1.3em;
+}
+/*endof Table Styling*/
+
+
+/*Bet Styling*/
+.bet{
+	width:70%;
+	margin-left: 15%;
+	padding: 1% 0;
+}
+.bet-sel{
+	display: inline-block;
+	width:40%;
+	height: 40px;
+	border: 1px solid black;
+	background: orange;
+	font: inherit;
+}
+.bet-selected{
+	background: green;
+}
+.bet-go{
+	display: inline-block;
+	width: 20%;
+	height: 40px;
+	border: 1px solid black;
+	background: lightblue;
+	font:inherit;
+}
+.bet-go:hover{
+	border: 1px solid lightblue;
+}
+.bet-field{
+	display: inline-block;
+	width: 40%
+}
+.bet-flag{
+	display: inline-block;
+	width: 5%;
+}
+/*endof Bet Styling*/
+
+
+
+
+
+.bets{
+	display: block;
+	width: 100%;
+	padding: 0 4%;
+}
+.bet-div{
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 0;
+	width: 49%;
+}
+.b-name{
+	display: block;
+	width: 100%;
+	padding: 10px 0;
+	font-size: 1.3em;
+	text-align: left;
+}
+.b-info{
+	display: block;
+	width: 100%;
+}
+.b-bet{
+	display: block;
+	padding: 10px 20%;
+	margin: auto;
+	background: none;
+	border: 1px solid green;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.b-bet:hover{
+	background: green;
+	color: white;
+}
+.b-bet:focus{
+	outline: none;
+}
+
+.b-easy{
+	display: block;
+	width: 100%;
+	padding: 10px 10%;
+	margin: 10px 0;
+	background: orange;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	border: none;
+	font: inherit;
+}
+.b-easy:focus{
+	background: green;
+}
+.b-easy-sel{
+	background: green;
+}
+
+.b-on{
+	width: 10px;
+	height: 13px;
+	margin: 2%;
+	margin-right: 10%;
+	border: none;
+	border: 1px solid black;
+	background: none;
+}
+.b-on:focus{
+	background: linear-gradient(to bottom right, green, red)
+}
+.b-on:checked{
+background-color: green;
+}
+.b-input{
+	vertical-align: middle;
+	display: inline-block;
+	width: 20%;
+	border:none;
+	border-bottom: 0.5px solid black;
+	cursor: pointer;
+	font: inherit;
+	font-size: 1.2em;
+}
+.b-r{
+	text-align: right
+}
+.bet-vs{
+	font-size: 1.5em;
+}

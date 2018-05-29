@@ -1,0 +1,80 @@
+{
+	"users": [
+		{
+			"id": 0,
+			"nickname": "nick",
+			"bio": "he is a big penis",
+			"creation": 1527176070885,
+			"score": 0,
+			"token": 1,
+			"bets": [
+				324,
+				8496
+			]
+		},
+		{
+			"id": 1,
+			"nickname": "nick",
+			"bio": "he is a big penis",
+			"creation": 1527176077356,
+			"score": 0,
+			"token": 1,
+			"bets": []
+		},
+		{
+			"id": 2,
+			"nickname": "nick",
+			"bio": "he is a big penis",
+			"creation": 1527176078114,
+			"score": 0,
+			"token": 1,
+			"bets": []
+		},
+		{
+			"id": 3,
+			"nickname": "nick",
+			"bio": "he is a big penis",
+			"creation": 1527176107300,
+			"score": 0,
+			"token": 1,
+			"bets": []
+		},
+		{
+			"id": 4,
+			"nickname": "nick",
+			"bio": "he is a big penis",
+			"creation": 1527176118235,
+			"score": 0,
+			"token": 1,
+			"bets": []
+		},
+		{
+			"id": 5,
+			"nickname": "nicgfdgdfgk",
+			"bio": "he is a big penis",
+			"creation": 1527176127240,
+			"score": 0,
+			"token": 1,
+			"bets": []
+		},
+		{
+			"id": 6,
+			"nickname": "nicgfdgdfgk",
+			"bio": "he is a big penis",
+			"creation": 1527176148780,
+			"score": 0,
+			"token": 1,
+			"bets": []
+		},
+		{
+			"id": 7,
+			"nickname": "nicgfdgdfgk",
+			"bio": "he is a big penis",
+			"creation": 1527176545523,
+			"score": 0,
+			"token": 1,
+			"bets": []
+		}
+	],
+	"currentID": 8
+}
