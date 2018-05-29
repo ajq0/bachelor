@@ -1,13 +1,13 @@
 # name not yet determined
 
-###### run command:
+#### run command:
 ```
-*npm* install
+npm install
 
-*node* index
+node index
 ```
 
-###### tools:
+#### tools:
 - node
 - express
 - react
